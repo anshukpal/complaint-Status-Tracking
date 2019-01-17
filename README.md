@@ -15,11 +15,11 @@ While handling customer complaints, it is hard to track the status of the compla
 	a. Used Pipeline for getting all algos
 	b. The unique words form complaint summary was used using the wieghted tf-idf - Got all the words.
 	c. Algos used:
-		1. LinearSVC (LinearSVC) - 76.32% (validation accuracy)
+		1.LinearSVC (LinearSVC) - 76.32% (validation accuracy)
 		2. Naive Bayes (MultinomialNB) - 79% (validation accuracy)
 		3. Linear SVM (SGDClassifier)  - 79% (validation accuracy)
 		4. Logistic Regression - 72% (validation accuracy)
 		5. XGBoost - 80% (although 1% higher, but the amount of resources it takes up, not worth it)
-	c. Used Keras - 79.8% (used Simple Model and LSTM)
+	d. Used Keras - 79.8% (used Simple Model and LSTM)
 
 
